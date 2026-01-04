@@ -295,7 +295,15 @@ class Example4 extends Example {
   Widget build(BuildContext context) {
     return Align(
       alignment: Alignment.bottomCenter,
-      child: Container(width: 100, height: 100, color: red),
+      child: Container(
+        width: 300,
+        height: 300,
+        color: red,
+        child: Align(
+          alignment: Alignment.bottomRight,
+          child: Text("123", style: TextStyle(color: Colors.yellow)),
+        ),
+      ),
     );
   }
 }
