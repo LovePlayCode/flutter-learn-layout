@@ -5,7 +5,7 @@ void main() => runApp(HomePage());
 const red = Colors.red;
 const green = Colors.green;
 const blue = Colors.blue;
-const big = const TextStyle(fontSize: 30);
+const big = const TextStyle(fontSize: 31);
 
 //////////////////////////////////////////////////
 
