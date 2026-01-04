@@ -898,6 +898,7 @@ class Example26 extends Example {
     return Row(
       children: [
         Expanded(
+          flex: 2,
           child: Container(
             color: red,
             child: Text(
