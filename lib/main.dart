@@ -294,7 +294,7 @@ class Example4 extends Example {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: Alignment.bottomRight,
+      alignment: Alignment.bottomCenter,
       child: Container(width: 100, height: 100, color: red),
     );
   }
